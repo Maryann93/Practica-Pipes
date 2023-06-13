@@ -1,0 +1,9 @@
+<p>NOMBRE DEL CLIENTE: {{nombre}}</p>
+<p>nombre del cliente mayusculas: {{nombre | uppercase}}</p>
+<p>nombre del cliente minusculas: {{nombre | lowercase}}</p>
+<p>saldo del cliente: {{saldo | currency:'$'}}</p>
+<p>dias trabajados: {{dias | slice:0:6}}</p>
+<p>Fecha: {{fechaActual | date:'mediumDate'}}</p>
+<p>{{articulos | json}}</p>
+<hr>
+<app-idiomas></app-idiomas>
